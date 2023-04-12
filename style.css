@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navegation {
+  background-color: #121212;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo-menu img {
+  width: 100%;
+}
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 10px 15px;
+  color: #ffffff;
+  font-size: 20px;
+}
+.content {
+  background-color: #ffffff;
+}
