@@ -7,34 +7,41 @@
     <link rel="stylesheet" href="style.css" />
     <title>Projeto Flexbox&Grid</title>
   </head>
-  <body>
+  <body class="container">
     <header>
       <nav class="navegation">
         <div class="logo-menu">
           <img src="image/logo-onebitcode.svg" alt="logo-onebitcode" />
         </div>
-        <div class="menu">
-          <ul>
-            <li>Login</li>
-            <li>Registro</li>
-            <li>FAQ</li>
-          </ul>
+        <div class="menu-group">
+          <button class="nav-btn">Login</button>
+          <button class="nav-btn">Registro</button>
+          <button class="nav-btn">FAQ</button>
         </div>
       </nav>
     </header>
+    <p class="section-title" id="back-to-top">BEM VINDO A ONEBITSPORTS!</p>
+    <p class="section-description">
+      Aqui é onde você encontra todos os itens mais novos e modernos do seu
+      esporte preferido
+    </p>
     <main class="content">
       <div class="container-sports">
-        <div class="box">
-          <img class="image" src="image/boxe.jpg" alt="lutador de boxe" />
+        <div class="cards">
+          <img
+            class="image-sports"
+            src="image/boxe.jpg"
+            alt="lutador de boxe"
+          />
           <p class="title">BOXE</p>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium,
             sapiente corporis. Delectus repellendus aperiam eaque!
           </p>
         </div>
-        <div class="crossfit">
+        <div class="cards">
           <img
-            class="image"
+            class="image-sports"
             src="image/crossfit.jpg"
             alt="treinador de crossfit"
           />
@@ -44,56 +51,68 @@
             itaque molestiae maxime.
           </p>
         </div>
-        <div class="swimming">
-          <img class="image" src="image/natacao.jpg" alt="treino de natação" />
+        <div class="cards">
+          <img
+            class="image-sports"
+            src="image/natacao.jpg"
+            alt="treino de natação"
+          />
           <p class="title">NATAÇÃO</p>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium,
             sapiente corporis. Delectus repellendus aperiam eaque!
           </p>
         </div>
-        <div class="clothes">
-          <img class="image" src="image/roupas.jpg" alt="homem de regata" />
+        <div class="cards">
+          <img
+            class="image-sports"
+            src="image/roupas.jpg"
+            alt="homem de regata"
+          />
           <p class="title">ROUPAS</p>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium,
             sapiente corporis. Delectus repellendus aperiam eaque!
           </p>
         </div>
-        <div class="basketball">
-          <img class="image" src="image/basquete.jpg" alt="basquete" />
+        <div class="cards">
+          <img class="image-sports" src="image/basquete.jpg" alt="basquete" />
           <p class="title">BASQUETE</p>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium,
             sapiente corporis. Delectus repellendus aperiam eaque!
           </p>
         </div>
-        <div class="race">
-          <img class="image" src="image/corrida.jpg" alt="mulher correndo" />
+        <div class="cards">
+          <img
+            class="image-sports"
+            src="image/corrida.jpg"
+            alt="mulher correndo"
+          />
           <p class="title">CORRIDA</p>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium,
             sapiente corporis. Delectus repellendus aperiam eaque!
           </p>
         </div>
-        <div class="surf">
-          <img class="image" src="image/surf.jpg" alt="surfista" />
+        <div class="cards">
+          <img class="image-sports" src="image/surf.jpg" alt="surfista" />
           <p class="title">SURF</p>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium,
             sapiente corporis. Delectus repellendus aperiam eaque!
           </p>
         </div>
-        <div class="trail">
-          <img class="image" src="image/trilha.jpg" alt="trilha" />
+        <div class="cards">
+          <img class="image-sports" src="image/trilha.jpg" alt="trilha" />
           <p class="title">TRILHA</p>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium,
             sapiente corporis. Delectus repellendus aperiam eaque!
           </p>
         </div>
-        <div class="tennis">
-          <img class="image" src="image/tenis.jpg" alt="jogo de tenis" />
+        <div class="cards">
+          <img class="image-sports" src="image/tenis.jpg" alt="jogo de tenis" />
           <p class="title">TÊNIS</p>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium,
@@ -102,12 +121,12 @@
         </div>
       </div>
       <div class="container-category">
-        <span class="category">CATEGORIAS EXTRAS</span>
-        <div class="bicycle">
+        <p class="category">CATEGORIAS EXTRAS</p>
+        <div class="cards-category">
           <img class="image" src="image/bicicletas.jpg" alt="bicicleta" />
           <p class="title-category">BICICLETAS</p>
         </div>
-        <div class="cold">
+        <div class="cards-category">
           <img
             class="image"
             src="image/esportesNaNeve.jpg"
@@ -115,11 +134,11 @@
           />
           <p class="title-category">ESPORTES DE FRIO</p>
         </div>
-        <div class="skate">
+        <div class="cards-category">
           <img class="image" src="image/skate.jpg" alt="skate" />
           <p class="title-category">SKATE</p>
         </div>
-        <div class="soccer">
+        <div class="cards-category">
           <img
             class="image"
             src="image/futebolAmericano.jpg"
@@ -127,19 +146,19 @@
           />
           <p class="title-category">FUTEBOL AMERICANO</p>
         </div>
-        <div class="yoga">
+        <div class="cards-category">
           <img class="image" src="image/yoga.jpg" alt="yoga" />
           <p class="title-category">YOGA</p>
         </div>
       </div>
     </main>
     <footer class="footer">
-      <div class="topo">
-        <span>VOLTAR PARA O TOPO</span>
-      </div>
-      <div class="logo-footer">
-        <img src="image/logo-onebitcode.svg" alt="logo-onebitcode" />
-      </div>
+      <img
+        src="image/logo-onebitcode.svg"
+        alt="logo-onebitcode"
+        class="logo-footer"
+      />
+      <a href="#back-to-top" class="footer-anchor">VOLTAR PARA O TOPO</a>
     </footer>
   </body>
 </html>
